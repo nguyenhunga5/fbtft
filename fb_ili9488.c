@@ -28,7 +28,7 @@
 #include "fbtft.h"
 
 #define DRVNAME		"fb_ili9488"
-#define WIDTH		420
+#define WIDTH		480
 #define HEIGHT		320
 
 /*

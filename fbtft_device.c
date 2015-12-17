@@ -1117,6 +1117,7 @@ static struct fbtft_device_display displays[] = {
 					.backlight = 1,
 				},
 				.fps= 60,
+				.rotate=180,
 				.bgr = true,
 				.gpios = (const struct fbtft_gpio []) {
 					{ "reset", 7 },
