@@ -56,6 +56,12 @@ config FB_TFT_ILI9327
 	help
 	  Generic Framebuffer support for ILI9327
 
+config FB_TFT_ILI9488
+	tristate "FB driver for the ILI9488 LCD Controller"
+	depends on FB_TFT
+	help
+	  Generic Framebuffer support for ILI9488
+
 config FB_TFT_ILI9340
 	tristate "FB driver for the ILI9340 LCD Controller"
 	depends on FB_TFT
